@@ -14,7 +14,7 @@
 		C5DDCB0F2C441D8E005FB70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DDCB0D2C441D8E005FB70C /* LaunchScreen.storyboard */; };
 		C5DDCB1F2C442684005FB70C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB1E2C442684005FB70C /* Location.swift */; };
 		C5DDCB212C4426E3005FB70C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB202C4426E3005FB70C /* Character.swift */; };
-		C5DDCB242C444712005FB70C /* CaracterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB232C444712005FB70C /* CaracterViewController.swift */; };
+		C5DDCB242C444712005FB70C /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB232C444712005FB70C /* CharacterViewController.swift */; };
 		C5DDCB272C44473E005FB70C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB262C44473E005FB70C /* LocationViewController.swift */; };
 		C5DDCB292C444754005FB70C /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB282C444754005FB70C /* EpisodeViewController.swift */; };
 		C5DDCB2B2C44476A005FB70C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB2A2C44476A005FB70C /* SettingsViewController.swift */; };
@@ -30,7 +30,7 @@
 		C5DDCB102C441D8E005FB70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5DDCB1E2C442684005FB70C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		C5DDCB202C4426E3005FB70C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		C5DDCB232C444712005FB70C /* CaracterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaracterViewController.swift; sourceTree = "<group>"; };
+		C5DDCB232C444712005FB70C /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		C5DDCB262C44473E005FB70C /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		C5DDCB282C444754005FB70C /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
 		C5DDCB2A2C44476A005FB70C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				C5DDCB062C441D8C005FB70C /* TabViewController.swift */,
-				C5DDCB232C444712005FB70C /* CaracterViewController.swift */,
+				C5DDCB232C444712005FB70C /* CharacterViewController.swift */,
 				C5DDCB262C44473E005FB70C /* LocationViewController.swift */,
 				C5DDCB282C444754005FB70C /* EpisodeViewController.swift */,
 				C5DDCB2A2C44476A005FB70C /* SettingsViewController.swift */,
@@ -223,7 +223,7 @@
 				C5DDCB1F2C442684005FB70C /* Location.swift in Sources */,
 				C5DDCB052C441D8C005FB70C /* SceneDelegate.swift in Sources */,
 				C5DDCB292C444754005FB70C /* EpisodeViewController.swift in Sources */,
-				C5DDCB242C444712005FB70C /* CaracterViewController.swift in Sources */,
+				C5DDCB242C444712005FB70C /* CharacterViewController.swift in Sources */,
 				C5DDCB2B2C44476A005FB70C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
