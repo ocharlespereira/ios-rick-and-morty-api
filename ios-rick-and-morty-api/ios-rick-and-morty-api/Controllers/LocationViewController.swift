@@ -1,5 +1,6 @@
 import UIKit
 
+/// Controller to show and search for screen Locations
 final class LocationViewController: UIViewController {
 
     override func viewDidLoad() {

@@ -18,6 +18,9 @@
 		C5DDCB272C44473E005FB70C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB262C44473E005FB70C /* LocationViewController.swift */; };
 		C5DDCB292C444754005FB70C /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB282C444754005FB70C /* EpisodeViewController.swift */; };
 		C5DDCB2B2C44476A005FB70C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB2A2C44476A005FB70C /* SettingsViewController.swift */; };
+		C5DDCB2D2C447C74005FB70C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB2C2C447C74005FB70C /* Service.swift */; };
+		C5DDCB2F2C447C97005FB70C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB2E2C447C97005FB70C /* Request.swift */; };
+		C5DDCB312C447DC5005FB70C /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB302C447DC5005FB70C /* EndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		C5DDCB262C44473E005FB70C /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		C5DDCB282C444754005FB70C /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
 		C5DDCB2A2C44476A005FB70C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C5DDCB2C2C447C74005FB70C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C5DDCB2E2C447C97005FB70C /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C5DDCB302C447DC5005FB70C /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		C5DDCB1B2C44255F005FB70C /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				C5DDCB2C2C447C74005FB70C /* Service.swift */,
+				C5DDCB2E2C447C97005FB70C /* Request.swift */,
+				C5DDCB302C447DC5005FB70C /* EndPoint.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -220,9 +229,12 @@
 				C5DDCB072C441D8C005FB70C /* TabViewController.swift in Sources */,
 				C5DDCB032C441D8C005FB70C /* AppDelegate.swift in Sources */,
 				C5DDCB212C4426E3005FB70C /* Character.swift in Sources */,
+				C5DDCB2F2C447C97005FB70C /* Request.swift in Sources */,
 				C5DDCB1F2C442684005FB70C /* Location.swift in Sources */,
+				C5DDCB312C447DC5005FB70C /* EndPoint.swift in Sources */,
 				C5DDCB052C441D8C005FB70C /* SceneDelegate.swift in Sources */,
 				C5DDCB292C444754005FB70C /* EpisodeViewController.swift in Sources */,
+				C5DDCB2D2C447C74005FB70C /* Service.swift in Sources */,
 				C5DDCB242C444712005FB70C /* CharacterViewController.swift in Sources */,
 				C5DDCB2B2C44476A005FB70C /* SettingsViewController.swift in Sources */,
 			);
