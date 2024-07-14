@@ -9,19 +9,31 @@
 /* Begin PBXBuildFile section */
 		C5DDCB032C441D8C005FB70C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB022C441D8C005FB70C /* AppDelegate.swift */; };
 		C5DDCB052C441D8C005FB70C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB042C441D8C005FB70C /* SceneDelegate.swift */; };
-		C5DDCB072C441D8C005FB70C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB062C441D8C005FB70C /* ViewController.swift */; };
+		C5DDCB072C441D8C005FB70C /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB062C441D8C005FB70C /* TabViewController.swift */; };
 		C5DDCB0C2C441D8E005FB70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DDCB0B2C441D8E005FB70C /* Assets.xcassets */; };
 		C5DDCB0F2C441D8E005FB70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DDCB0D2C441D8E005FB70C /* LaunchScreen.storyboard */; };
+		C5DDCB1F2C442684005FB70C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB1E2C442684005FB70C /* Location.swift */; };
+		C5DDCB212C4426E3005FB70C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB202C4426E3005FB70C /* Character.swift */; };
+		C5DDCB242C444712005FB70C /* CaracterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB232C444712005FB70C /* CaracterViewController.swift */; };
+		C5DDCB272C44473E005FB70C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB262C44473E005FB70C /* LocationViewController.swift */; };
+		C5DDCB292C444754005FB70C /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB282C444754005FB70C /* EpisodeViewController.swift */; };
+		C5DDCB2B2C44476A005FB70C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB2A2C44476A005FB70C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C5DDCAFF2C441D8C005FB70C /* ios-rick-and-morty-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-rick-and-morty-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DDCB022C441D8C005FB70C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5DDCB042C441D8C005FB70C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5DDCB062C441D8C005FB70C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5DDCB062C441D8C005FB70C /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		C5DDCB0B2C441D8E005FB70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5DDCB0E2C441D8E005FB70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5DDCB102C441D8E005FB70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DDCB1E2C442684005FB70C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C5DDCB202C4426E3005FB70C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		C5DDCB232C444712005FB70C /* CaracterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaracterViewController.swift; sourceTree = "<group>"; };
+		C5DDCB262C44473E005FB70C /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		C5DDCB282C444754005FB70C /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		C5DDCB2A2C44476A005FB70C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,84 @@
 		C5DDCB012C441D8C005FB70C /* ios-rick-and-morty-api */ = {
 			isa = PBXGroup;
 			children = (
-				C5DDCB022C441D8C005FB70C /* AppDelegate.swift */,
-				C5DDCB042C441D8C005FB70C /* SceneDelegate.swift */,
-				C5DDCB062C441D8C005FB70C /* ViewController.swift */,
-				C5DDCB0B2C441D8E005FB70C /* Assets.xcassets */,
-				C5DDCB0D2C441D8E005FB70C /* LaunchScreen.storyboard */,
+				C5DDCB1D2C442581005FB70C /* Resources */,
+				C5DDCB1C2C44256E005FB70C /* Managers */,
+				C5DDCB1B2C44255F005FB70C /* APIClient */,
+				C5DDCB1A2C442543005FB70C /* ViewModels */,
+				C5DDCB192C442539005FB70C /* Views */,
+				C5DDCB182C442528005FB70C /* Models */,
+				C5DDCB162C4424F4005FB70C /* Controllers */,
 				C5DDCB102C441D8E005FB70C /* Info.plist */,
 			);
 			path = "ios-rick-and-morty-api";
+			sourceTree = "<group>";
+		};
+		C5DDCB162C4424F4005FB70C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDCB222C44468C005FB70C /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5DDCB182C442528005FB70C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDCB1E2C442684005FB70C /* Location.swift */,
+				C5DDCB202C4426E3005FB70C /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5DDCB192C442539005FB70C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5DDCB1A2C442543005FB70C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C5DDCB1B2C44255F005FB70C /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		C5DDCB1C2C44256E005FB70C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C5DDCB1D2C442581005FB70C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDCB0B2C441D8E005FB70C /* Assets.xcassets */,
+				C5DDCB0D2C441D8E005FB70C /* LaunchScreen.storyboard */,
+				C5DDCB022C441D8C005FB70C /* AppDelegate.swift */,
+				C5DDCB042C441D8C005FB70C /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5DDCB222C44468C005FB70C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDCB062C441D8C005FB70C /* TabViewController.swift */,
+				C5DDCB232C444712005FB70C /* CaracterViewController.swift */,
+				C5DDCB262C44473E005FB70C /* LocationViewController.swift */,
+				C5DDCB282C444754005FB70C /* EpisodeViewController.swift */,
+				C5DDCB2A2C44476A005FB70C /* SettingsViewController.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5DDCB072C441D8C005FB70C /* ViewController.swift in Sources */,
+				C5DDCB272C44473E005FB70C /* LocationViewController.swift in Sources */,
+				C5DDCB072C441D8C005FB70C /* TabViewController.swift in Sources */,
 				C5DDCB032C441D8C005FB70C /* AppDelegate.swift in Sources */,
+				C5DDCB212C4426E3005FB70C /* Character.swift in Sources */,
+				C5DDCB1F2C442684005FB70C /* Location.swift in Sources */,
 				C5DDCB052C441D8C005FB70C /* SceneDelegate.swift in Sources */,
+				C5DDCB292C444754005FB70C /* EpisodeViewController.swift in Sources */,
+				C5DDCB242C444712005FB70C /* CaracterViewController.swift in Sources */,
+				C5DDCB2B2C44476A005FB70C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
