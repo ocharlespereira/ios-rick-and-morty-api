@@ -26,6 +26,7 @@
 		C5DDCB392C44866F005FB70C /* CharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB382C44866F005FB70C /* CharacterStatus.swift */; };
 		C5DDCB3B2C4486B2005FB70C /* CharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB3A2C4486B2005FB70C /* CharacterGender.swift */; };
 		C5DDCB3D2C448820005FB70C /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB3C2C448820005FB70C /* Episodes.swift */; };
+		C5E04F3A2C4742BD005939FD /* GetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F392C4742BD005939FD /* GetAllCharactersResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		C5DDCB382C44866F005FB70C /* CharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStatus.swift; sourceTree = "<group>"; };
 		C5DDCB3A2C4486B2005FB70C /* CharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGender.swift; sourceTree = "<group>"; };
 		C5DDCB3C2C448820005FB70C /* Episodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episodes.swift; sourceTree = "<group>"; };
+		C5E04F392C4742BD005939FD /* GetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCharactersResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +107,8 @@
 		C5DDCB182C442528005FB70C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C5DDCB1E2C442684005FB70C /* Location.swift */,
-				C5DDCB202C4426E3005FB70C /* Character.swift */,
-				C5DDCB322C4483E1005FB70C /* Origin.swift */,
-				C5DDCB342C4484B1005FB70C /* SingleLocation.swift */,
-				C5DDCB382C44866F005FB70C /* CharacterStatus.swift */,
-				C5DDCB3A2C4486B2005FB70C /* CharacterGender.swift */,
-				C5DDCB3C2C448820005FB70C /* Episodes.swift */,
+				C5E04F382C47429B005939FD /* APIResponseTypes */,
+				C5E04F372C474287005939FD /* DataTypes */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +165,28 @@
 				C5DDCB2A2C44476A005FB70C /* SettingsViewController.swift */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		C5E04F372C474287005939FD /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDCB1E2C442684005FB70C /* Location.swift */,
+				C5DDCB202C4426E3005FB70C /* Character.swift */,
+				C5DDCB322C4483E1005FB70C /* Origin.swift */,
+				C5DDCB342C4484B1005FB70C /* SingleLocation.swift */,
+				C5DDCB382C44866F005FB70C /* CharacterStatus.swift */,
+				C5DDCB3A2C4486B2005FB70C /* CharacterGender.swift */,
+				C5DDCB3C2C448820005FB70C /* Episodes.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		C5E04F382C47429B005939FD /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				C5E04F392C4742BD005939FD /* GetAllCharactersResponse.swift */,
+			);
+			path = APIResponseTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +271,7 @@
 				C5DDCB332C4483E1005FB70C /* Origin.swift in Sources */,
 				C5DDCB312C447DC5005FB70C /* EndPoint.swift in Sources */,
 				C5DDCB052C441D8C005FB70C /* SceneDelegate.swift in Sources */,
+				C5E04F3A2C4742BD005939FD /* GetAllCharactersResponse.swift in Sources */,
 				C5DDCB292C444754005FB70C /* EpisodeViewController.swift in Sources */,
 				C5DDCB2D2C447C74005FB70C /* Service.swift in Sources */,
 				C5DDCB392C44866F005FB70C /* CharacterStatus.swift in Sources */,
