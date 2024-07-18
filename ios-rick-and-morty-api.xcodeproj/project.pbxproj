@@ -27,6 +27,9 @@
 		C5DDCB3B2C4486B2005FB70C /* CharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB3A2C4486B2005FB70C /* CharacterGender.swift */; };
 		C5DDCB3D2C448820005FB70C /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DDCB3C2C448820005FB70C /* Episodes.swift */; };
 		C5E04F3A2C4742BD005939FD /* GetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F392C4742BD005939FD /* GetAllCharactersResponse.swift */; };
+		C5E04F3C2C489269005939FD /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F3B2C489269005939FD /* CharacterListViewViewModel.swift */; };
+		C5E04F3E2C4894CB005939FD /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F3D2C4894CB005939FD /* CharacterListView.swift */; };
+		C5E04F402C489D84005939FD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F3F2C489D84005939FD /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		C5DDCB3A2C4486B2005FB70C /* CharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGender.swift; sourceTree = "<group>"; };
 		C5DDCB3C2C448820005FB70C /* Episodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episodes.swift; sourceTree = "<group>"; };
 		C5E04F392C4742BD005939FD /* GetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCharactersResponse.swift; sourceTree = "<group>"; };
+		C5E04F3B2C489269005939FD /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
+		C5E04F3D2C4894CB005939FD /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		C5E04F3F2C489D84005939FD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 		C5DDCB192C442539005FB70C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C5E04F3D2C4894CB005939FD /* CharacterListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 		C5DDCB1A2C442543005FB70C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C5E04F3B2C489269005939FD /* CharacterListViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 				C5DDCB0D2C441D8E005FB70C /* LaunchScreen.storyboard */,
 				C5DDCB022C441D8C005FB70C /* AppDelegate.swift */,
 				C5DDCB042C441D8C005FB70C /* SceneDelegate.swift */,
+				C5E04F3F2C489D84005939FD /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -261,6 +270,7 @@
 			files = (
 				C5DDCB272C44473E005FB70C /* LocationViewController.swift in Sources */,
 				C5DDCB072C441D8C005FB70C /* TabViewController.swift in Sources */,
+				C5E04F3E2C4894CB005939FD /* CharacterListView.swift in Sources */,
 				C5DDCB3B2C4486B2005FB70C /* CharacterGender.swift in Sources */,
 				C5DDCB3D2C448820005FB70C /* Episodes.swift in Sources */,
 				C5DDCB352C4484B1005FB70C /* SingleLocation.swift in Sources */,
@@ -271,11 +281,13 @@
 				C5DDCB332C4483E1005FB70C /* Origin.swift in Sources */,
 				C5DDCB312C447DC5005FB70C /* EndPoint.swift in Sources */,
 				C5DDCB052C441D8C005FB70C /* SceneDelegate.swift in Sources */,
+				C5E04F402C489D84005939FD /* Extensions.swift in Sources */,
 				C5E04F3A2C4742BD005939FD /* GetAllCharactersResponse.swift in Sources */,
 				C5DDCB292C444754005FB70C /* EpisodeViewController.swift in Sources */,
 				C5DDCB2D2C447C74005FB70C /* Service.swift in Sources */,
 				C5DDCB392C44866F005FB70C /* CharacterStatus.swift in Sources */,
 				C5DDCB242C444712005FB70C /* CharacterViewController.swift in Sources */,
+				C5E04F3C2C489269005939FD /* CharacterListViewViewModel.swift in Sources */,
 				C5DDCB2B2C44476A005FB70C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
