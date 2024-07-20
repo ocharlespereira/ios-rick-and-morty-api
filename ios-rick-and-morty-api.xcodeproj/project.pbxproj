@@ -30,6 +30,8 @@
 		C5E04F3C2C489269005939FD /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F3B2C489269005939FD /* CharacterListViewViewModel.swift */; };
 		C5E04F3E2C4894CB005939FD /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F3D2C4894CB005939FD /* CharacterListView.swift */; };
 		C5E04F402C489D84005939FD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F3F2C489D84005939FD /* Extensions.swift */; };
+		C5E04F422C4B4043005939FD /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F412C4B4043005939FD /* CharacterCollectionViewCell.swift */; };
+		C5E04F442C4B4267005939FD /* CharacterCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E04F432C4B4267005939FD /* CharacterCollectionViewCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		C5E04F3B2C489269005939FD /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
 		C5E04F3D2C4894CB005939FD /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
 		C5E04F3F2C489D84005939FD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C5E04F412C4B4043005939FD /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		C5E04F432C4B4267005939FD /* CharacterCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				C5E04F3D2C4894CB005939FD /* CharacterListView.swift */,
+				C5E04F412C4B4043005939FD /* CharacterCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				C5E04F3B2C489269005939FD /* CharacterListViewViewModel.swift */,
+				C5E04F432C4B4267005939FD /* CharacterCollectionViewCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 				C5DDCB332C4483E1005FB70C /* Origin.swift in Sources */,
 				C5DDCB312C447DC5005FB70C /* EndPoint.swift in Sources */,
 				C5DDCB052C441D8C005FB70C /* SceneDelegate.swift in Sources */,
+				C5E04F442C4B4267005939FD /* CharacterCollectionViewCellViewModel.swift in Sources */,
 				C5E04F402C489D84005939FD /* Extensions.swift in Sources */,
 				C5E04F3A2C4742BD005939FD /* GetAllCharactersResponse.swift in Sources */,
 				C5DDCB292C444754005FB70C /* EpisodeViewController.swift in Sources */,
@@ -288,6 +295,7 @@
 				C5DDCB392C44866F005FB70C /* CharacterStatus.swift in Sources */,
 				C5DDCB242C444712005FB70C /* CharacterViewController.swift in Sources */,
 				C5E04F3C2C489269005939FD /* CharacterListViewViewModel.swift in Sources */,
+				C5E04F422C4B4043005939FD /* CharacterCollectionViewCell.swift in Sources */,
 				C5DDCB2B2C44476A005FB70C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
