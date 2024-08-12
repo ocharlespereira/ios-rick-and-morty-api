@@ -66,5 +66,5 @@ final class Request {
 }
 
 extension Request {
-    static let listCharactersRequest = Request(endpoint: .character)
+    static let listCharactersRequests = Request(endpoint: .character)
 }
